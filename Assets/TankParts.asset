@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6bd172fdbe9414287438bf50563043, type: 3}
+  m_Name: TankParts
+  m_EditorClassIdentifier: 
+  tracksParts:
+  - name: Tracks1
+    cost: 0
+    speedBonus: 3
+    sprite: {fileID: 21300000, guid: 5d095de063c482c4a8b4d113bb0c38a0, type: 3}
+  - name: Tracks2
+    cost: 50
+    speedBonus: 4
+    sprite: {fileID: 21300000, guid: dbb6e3fbaab305d43b5605af51a8052a, type: 3}
+  hullParts:
+  - name: Hull1
+    cost: 0
+    armorBonus: 30
+    sprite: {fileID: 21300000, guid: 519db26ac7648064fabb6f100ecfe3db, type: 3}
+  - name: Hull2
+    cost: 50
+    armorBonus: 50
+    sprite: {fileID: 21300000, guid: e0609a9292fd58642a68a660e8bab050, type: 3}
+  towerPars:
+  - name: Tower1
+    cost: 0
+    dmgBonus: 0
+    sprite: {fileID: 21300000, guid: 78696e24cbcb7d0468b6482fb15339e5, type: 3}
+  - name: Tower2
+    cost: 60
+    dmgBonus: 2
+    sprite: {fileID: 21300000, guid: f1ccc39a0a85606479e4fcb6e5ae2aa3, type: 3}

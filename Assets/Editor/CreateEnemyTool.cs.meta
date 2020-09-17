@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a5e97c2e174de948afe794e56baf178
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - shells: {fileID: 11400000, guid: f637672dde9e1d94a89aabc996249d11, type: 2}
+  - shellPrefab: {fileID: 3181442176562337060, guid: dc77716c421597e4b96710fc55278fd9, type: 3}
+  - enemieslist: {fileID: 11400000, guid: 072b2c7c971914044a23c18e94b22adb, type: 2}
+  - sprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

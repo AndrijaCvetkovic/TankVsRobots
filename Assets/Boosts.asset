@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfc405c1cf25db4191e2cc7ba1ec808, type: 3}
+  m_Name: Boosts
+  m_EditorClassIdentifier: 
+  unusableBoosts:
+  - waitForActivation: 0
+    icon: {fileID: -273060469431498887, guid: 0e2b8d27f62d0bb4db0685d6d66db4f4, type: 3}
+    boostStat: 1
+    expireTime: 0
+  - waitForActivation: 0
+    icon: {fileID: 21300000, guid: 6093598df13cc0e409217e28d25d435b, type: 3}
+    boostStat: 2
+    expireTime: 1
+  - waitForActivation: 0
+    icon: {fileID: 21300000, guid: 6e3675dd33e7b404b86496d5a7c4f3f9, type: 3}
+    boostStat: 3
+    expireTime: 1
+  - waitForActivation: 0
+    icon: {fileID: 8160775752198118580, guid: 0e2b8d27f62d0bb4db0685d6d66db4f4, type: 3}
+    boostStat: 4
+    expireTime: 1
+  usableBoosts:
+  - waitForActivation: 1
+    icon: {fileID: 21300000, guid: 15a5695cda9e781458e527266c48f9f2, type: 3}
+    prefab: {fileID: 3615594354382246241, guid: 84f25d948ceebd24a9c171b8a987e554, type: 3}
+  - waitForActivation: 1
+    icon: {fileID: 21300000, guid: 46a1119687b376743b1f19f928aca8ba, type: 3}
+    prefab: {fileID: 8071418064605488994, guid: c10ffcff7706c8e49996269963162204, type: 3}
